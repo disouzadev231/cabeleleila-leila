@@ -1,3 +1,5 @@
+<h1>Importante</h1>
+Gostaria de informar que este sistema foi desenvolvido para um teste pratico no qual meus conhecimentos me ajudaram a desenvolver a parte front-end do projeto a demais funcionalidades pedidas no momento não terei capacidade de entregaR.
 <h1>Formulário de Agendamento de Serviços - Salão de Cabeleleila-Leila#</h1>
 
 Este é um projeto de um formulário de agendamento de serviços para um salão de beleza. O formulário permite que os clientes insiram suas informações pessoais e selecionem os serviços desejados para agendamento. O projeto foi construído utilizando HTML, CSS e JavaScript puro.
