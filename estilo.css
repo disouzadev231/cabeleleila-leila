@@ -1,0 +1,63 @@
+header {
+  background-color: gainsboro;
+  padding: 5px;
+  border: 1px solid black; /* Adiciona uma borda sólida de 1px na cor preta */
+  overflow: auto; /* Limpa o float para evitar problemas de layout */
+}
+.logo {
+  display: inline-block;
+  vertical-align: top; /* Alinha o logotipo no topo */
+  margin-right: 0px; /* Adiciona espaço à direita do logotipo */
+  margin-top: 10px;
+
+}
+
+/*.form {
+  border
+}*/
+#alteracaoForm{
+  border-radius: 3px;
+}
+.cabe{
+  margin-top: 0px;
+  margin-left: 230px;
+  font-family: Arial, sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+/*.sidebar {
+  width: 300px;
+  height: 500px;
+  margin-top: 20px;
+  box-shadow: 5px 5px 5px rgba(10, 5, 5, 5.2);
+  margin-right: 100px;
+  float: left;
+  border-radius: 10px;
+}*/
+.agendamento{
+  width: 300px;
+  height: 650px;
+ margin-top: 20px;
+  margin-left: 400px;
+  border-right: 500px;
+  position: center;
+  background-color:gray;
+  padding: 30px 30px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(10, 5, 5, 5.2);
+}
+.buton-agendar {
+  height: 50px;
+  border-radius: 6px;
+}
+
+.rodape {
+  margin-top: 5px;
+  background-color: gainsboro;
+  padding: 20px;
+}
+.verso{
+  margin-left: 500px;
+}
+

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Cabeleleila-Leila </title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <img src="icons8-haircut-48.png" alt="Logo">
+    </div>
+
+    <h1 class="cabe">Cabeleleila Leila Salão de Beleiza</h1>
+
+
+  </header>
+  <div class="container">
+    <aside class="sidebar">
+      <div class="agendamento">
+        <h1>Agendamento de Serviços</h1>
+
+        <form id="agendamentoForm" class="form">
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome">
+          <br><br>
+
+          <label for="telefone">Telefone:</label>
+          <input type="text" id="telefone" name="telefone">
+          <br><br>
+
+          <label for="servico">Serviço:</label>
+          <select id="servico" name="servico">
+            <option value="servico1">corte</option>
+            <option value="servico2">escova</option>
+            <option value="servico3">Hidratação</option>
+          </select>
+
+          <br><br>
+
+          <label for="data">Data:</label>
+          <input type="date" id="data" name="data">
+          <br><br>
+
+          <label for="hora">Hora:</label>
+          <input type="time" id="hora" name="hora">
+
+          <br><br>
+
+          <input type="submit" value="Agendar" class="buton-agendar">
+        </form>
+
+
+        <h2>Alterar Agendamento</h2>
+        <select id="agendamento" name="agendamento"></select>
+        <button id="btnAlterar">Alterar</button>
+        <br><br>
+
+        <form id="alteracaoForm">
+          <label for="nomeAlteracao">Nome:</label>
+          <input type="text" id="nomeAlteracao" name="nomeAlteracao">
+          <br><br>
+
+          <label for="telefoneAlteracao">Telefone:</label>
+          <input type="text" id="telefoneAlteracao" name="telefoneAlteracao">
+          <br><br>
+
+          <label for="novaData">Nova Data:</label>
+          <input type="date" id="novaData" name="novaData">
+          <br><br>
+
+          <label for="novaHora">Nova Hora:</label>
+          <input type="time" id="novaHora" name="novaHora">
+          <br><br>
+
+          <input type="submit" value="Confirmar Alteração" class="buton-agendar">
+        </form>
+    </aside>
+    <br><br><br><br><br><br><br><br>
+    < <footer class="rodape">
+      <h4 class="verso">Volte sempre!</h4>
+      </footer>
+  </div>
+  </div>
+  </div>
+
+</body>
+<script src="script.js"></script>
+
+</html>
